@@ -9,6 +9,14 @@ const UsersPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const usersPerPage = 6;
   const navigate = useNavigate();
+  const updateUserLocally = (updatedUser) => {
+    setUsers(prevUsers =>
+      prevUsers.map(user =>
+        user.id === updatedUser.id ? { ...user, ...updatedUser } : user
+      )
+    );
+  };
+  
 
   useEffect(() => {
     const fetchUsers = async () => {
