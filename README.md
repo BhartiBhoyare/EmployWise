@@ -30,7 +30,7 @@ This is a simple CRUD application built with **React**, **Tailwind CSS**, and **
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/users-management-app.git
+git clone https://github.com/bhartibhoyare/users-management-app.git
 cd users-management-app
 ```
 
@@ -43,7 +43,7 @@ npm install
 ```bash
 npm start
 ```
-The app will run on `http://localhost:3000`.
+The app will run on `http://localhost:5173`.
 
 ---
 
@@ -52,7 +52,7 @@ The app will run on `http://localhost:3000`.
 This app is deployed using **Vercel**. You can deploy it by:
 
 1. Pushing your code to GitHub.
-2. Connecting your GitHub repo to [https://vercel.com](https://vercel.com).
+2. Connecting your GitHub repo to [https://employwise-tau.vercel.app/].
 3. Vercel automatically builds and deploys your React app.
 
 ---
@@ -90,18 +90,11 @@ src/
 └── index.js
 ```
 
----
-
-## 📸 Screenshots
-
-> _Add screenshots here if needed (optional)_
-
----
 
 ## 🙇‍♀️ Author
 
 **Bharti Bhoyare**  
 Frontend Developer | React Enthusiast  
-[Portfolio](#) | [LinkedIn](#)
+[https://www.linkedin.com/in/bharti-bhoyare]
 
 ---
