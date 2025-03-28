@@ -1,4 +1,4 @@
-h1# Users Management React App
+# Users Management React App
 
 This is a simple CRUD application built with **React**, **Tailwind CSS**, and **Framer Motion**. It allows users to log in (with mock credentials), view a paginated and searchable list of users, delete users, and edit user information via a separate edit page. This project uses the [Reqres API](https://reqres.in/) as a mock backend.
 
