@@ -18,6 +18,7 @@ This is a simple CRUD application built with **React**, **Tailwind CSS**, and **
 ## 📦 Tech Stack
 
 - React.js
+- JavaScript
 - React Router DOM
 - Tailwind CSS
 - Framer Motion
