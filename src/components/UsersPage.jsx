@@ -83,8 +83,8 @@ const UsersPage = () => {
               <p className="text-sm text-gray-500">ID: {user.id}</p>
               <p className="text-sm text-gray-600 mt-1">{user.email}</p>
               <div className="flex space-x-2 mt-4">
-                <button onClick={() => handleEdit(user.id)} className="px-3 py-1 text-sm bg-purple-600 text-white rounded hover:bg-indigo-700">Edit</button>
-                <button onClick={() => handleDelete(user.id)} className="px-3 py-1 text-sm bg-red-500 text-white rounded hover:bg-red-600">Delete</button>
+                <button onClick={() => handleEdit(user.id)} className="px-3 py-1 text-sm bg-purple-600 text-white rounded hover:bg-indigo-700 cursor-pointer">Edit</button>
+                <button onClick={() => handleDelete(user.id)} className="px-3 py-1 text-sm bg-red-500 text-white rounded hover:bg-red-600 cursor-pointer">Delete</button>
               </div>
             </motion.div>
           ))}
@@ -95,7 +95,7 @@ const UsersPage = () => {
             <button
               key={page}
               onClick={() => handlePageChange(page)}
-              className={`px-4 py-2 rounded-md font-medium transition ${currentPage === page ? "bg-white text-purple-700 shadow" : "bg-purple-500 text-white hover:bg-purple-600"}`}
+              className={`px-4 py-2 rounded-md cursor-pointer font-medium transition ${currentPage === page ? "bg-white text-purple-700 shadow" : "bg-purple-500 text-white hover:bg-purple-600"}`}
             >
               {page}
             </button>

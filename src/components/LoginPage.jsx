@@ -81,7 +81,7 @@ const LoginPage = () => {
               <button
                 onClick={() => User()}
                 type="button"
-                className="w-full py-2 px-4 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-md hover:from-purple-600 hover:to-indigo-600 transition"
+                className="w-full py-2 px-4 cursor-pointer bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-md hover:from-purple-600 hover:to-indigo-600 transition"
               >
                 Login
               </button>
