@@ -48,16 +48,6 @@ The app will run on `http://localhost:5173`.
 
 ---
 
-## 🌐 Deployment
-
-This app is deployed using **Vercel**. You can deploy it by:
-
-1. Pushing your code to GitHub.
-2. Connecting your GitHub repo to.
-3. Vercel automatically builds and deploys your React app.
-
----
-
 ### 🔗 Project Links
 
 - GitHub Repository: https://github.com/BhartiBhoyare/EmployWise
