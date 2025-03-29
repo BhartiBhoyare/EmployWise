@@ -31,7 +31,7 @@ This is a simple CRUD application built with **React**, **Tailwind CSS**, and **
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/bhartibhoyare/users-management-app.git
+git clone https://github.com/BhartiBhoyare/users-management-app.git
 cd users-management-app
 ```
 
@@ -42,7 +42,7 @@ npm install
 
 ### 3. Run the development server
 ```bash
-npm start
+npm run dev
 ```
 The app will run on `http://localhost:5173`.
 
